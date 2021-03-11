@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+/* header {position: relative; box-shadow: 0px 5px 10px #dcdbdb; padding: 10px 0 10px 10px; height: 10%; line-height:1;} */
+
+.row{margin-right:-15px;margin-left:-15px}
+.row:after,.row:before{display:table;content:" "}
+
+/* ******************************************from main_reset.css ****************************************** */
+/* *{margin:0;padding:0;outline:none;box-sizing:border-box;} */
+html, body{font-family:'Noto Sans KR',sans-serif;color:#000;font-size:14px;font-weight:normal;}
+body{margin: 30px 20px 20px 30px; padding: 30px 20px 20px 30px;}
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+ abbr, acronym, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, 
+strike, sub, sup, tt, var, b, u, i, center, fieldset, form, label, legend,
+caption, tbody, tfoot, thead, article, aside, canvas, details, embed, figure, figcaption, hgroup, 
+menu, nav, output, ruby, summary, time, mark, audio, video
+{margin: 0;padding: 0;border: 0;font-size: 100%;font: 'Noto Sans KR', sans-serif;vertical-align: baseline;}
+
+h1, h2, h3, h4, h5, h6{margin: 0;padding: 0;border: 0;font: 'Noto Sans KR', sans-serif;vertical-align: baseline;}
+/* img {margin: 0;padding: 0;border: 0;font-size: 100%;font: 'Noto Sans KR', sans-serif;vertical-align: baseline;} */
+/* section {margin: 0;padding: 0;border: 0;font-size: 100%;font: 'Noto Sans KR', sans-serif;vertical-align: baseline;} */
+
+
+table{border: 0; align: center; text-align: center; width: 70%; overflow-x:auto;padding:20px;}
+tr, th, td { /* margin: auto;   */padding: 0;border: 0;font-size: 100%;font: 'Noto Sans KR', sans-serif;vertical-align: baseline; }
+th, td {  border-bottom: 1px solid #ddd;}
+th{ padding: 5px;height: 40px; text-align: center;  vertical-align: middle;}
+table tr th a {color:#fff}/* th 태그에 있는 a */
+  table tr th  a:hover, a:active, a:visited, a:focus {color:#0000ff; font-weight: 700; text-decoration:none;}/* th 태그에 있는 a */
+td {padding: 5px;}
+tr:hover {background-color: #f5f5f5;}
+th {background-color: #3d84be;color: white;}
+
+dl, dt, dd {margin: 0;padding: 0;border: 0;font-size: 100%;font: 'Noto Sans KR', sans-serif;vertical-align: baseline;} 
+ol, ul, li {
+    margin: 0;padding: 0;border: 0;font-size: 100%;font: 'Noto Sans KR', sans-serif;vertical-align: baseline;
+    list-style:none;}
+ 
+ a { margin: 0;padding: 0;border: 0;font-size: 100%;font-weight: 700;font: 'Noto Sans KR', sans-serif;
+   text-decoration:none; transition:all ease-in-out .1s; color:#3d84be;}
+ a:hover, a:active, a:visited, a:focus{color: #3d84be; font-weight: 700; text-decoration:none; }
+article, aside, details, figcaption, figure, hgroup, menu, nav{display: block;}
+/* section{display: block;} */
+
+form, fieldset, img{border:0;}
+
+button{   background-color: #3d84be; font-weight: 500;cursor:pointer;border: none; color: #fff; padding: 12px 24px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;transition-duration: 0.2s;cursor: pointer;}
+button:hover{  background-color: white; font-weight: 500;  color: black;  border: 2px solid rgba(61, 132, 190, 0.5) padding: 2px 22px;}
+
+input{color:#333;font-size:14px;border:1;font-family:'Noto Sans KR',sans-serif;}
+input[type=search]{background-color: #fff; font-weight: 500;cursor:pointer;border: .5; color: #3d84be; border-color: #3d84be;  text-align: left;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;transition-duration: 0.2s;cursor: pointer;}
+ input[type=search]:hover {background-color: #f5f5f5;}
+ 
+input[type=submit], select {background-color: #3d84be; font-weight: 500;cursor:pointer;border: none; color: #fff; padding: 4px 24px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;transition-duration: 0.2s;cursor: pointer;}
+input[type=submit]:hover, select:hover{background-color: white; font-weight: 500;  color: black;  border: 2px solid rgba(61, 132, 190, 0.5); padding: 2px 22px;}
+input[type=reset], select {background-color: #3d84be; font-weight: 500;cursor:pointer;border: none; color: #fff; padding: 4px 24px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;transition-duration: 0.2s;cursor: pointer;}
+input[type=reset]:hover, select:hover{background-color: white; font-weight: 500;  color: black;  border: 2px solid rgba(61, 132, 190, 0.5); padding: 2px 22px;}
+input[type=button], select {background-color: #3d84be; font-weight: 500;cursor:pointer;border: none; color: #fff; padding: 4px 24px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;transition-duration: 0.2s;cursor: pointer;}
+input[type=button]:hover, select:hover{background-color: white; font-weight: 500;  color: black;  border: 2px solid rgba(61, 132, 190, 0.5); padding: 2px 22px;}
+
+
+textarea {border: 1 #black;}
+textarea{ border-width: 2px; width:100%;resize:none; box-sizing: border-box;}
+textarea[readonly]{cursor:default;}
+/* img {vertical-align: top;} */
+iframe{width:100%;height:auto;border:0;}
+/* ****************************************** from main_reset.css (END) ****************************************** */
+
+
+
+/* ******************************************from main_common.css ****************************************** */
+.inner {max-width:1200px; margin: auto auto;}
+.mw {min-width:1200px;}
+/* .mw1600 {min-width:1600px;} */
+.cf:after {content: ""; clear: both; display:block;}
+.bg-white {background:#fff;}
+
+/* bootstrap 
+ol, ul {margin-bottom:0;}
+p {margin:0;}
+.h1, .h2, .h3, h1, h2, h3  {margin-bottom:0; margin-top:0;}
+.nav>li>a {padding:0;}
+.nav>li>a:focus, .nav>li>a:hover {background-color:transparent;}*/
+/* ******************************************from main_common.css (END) ****************************************** */
+
+
+
+/* ******************************************from main_main.css ****************************************** */
+/* =================
+   full-menu
+==================*/
+.full-menu {box-shadow: 0px 10px 10px #dcdbdb; position: absolute; left: 0;top: 90px; z-index: 10; width: 100%; height:326px; border-top: 1px solid #ddd; text-align:center; background-image: url(/source/img/full-bg.png); background-position: 0 0; background-repeat: repeat-x; border-top: 1px solid #ddd; display:none;}
+.full-list > li {float:left; width: 12.5%; height: 326px; border-right: 1px solid #ddd;}
+.full-list > li:first-child {border-left: 1px solid #ddd;}
+.full-list > li:hover {background-color:#eef8fc; background-image: url(/source/img/full-bg.png); background-position: 0 0; background-repeat: repeat-x;}
+.full-list div {font-size:18px; padding: 16px 0;}
+.full-list ol li {margin-top: 10px; }
+.full-list ol li:first-child {margin-top: 20px; }
+.full-list ol li a:hover {color:#346a98;}
+.full-list ol li a {font-size:15px; color:#666; line-height: 25px;}
+
+.row {margin:0;}
+.hamburger .line {width: 30px; height: 3px; background-color: #87bbd0; display: block; margin: 5px auto; /* transition: all 0.2s ease-in-out; */}
+.hamburger:hover {cursor: pointer;}
+
+/* =================
+   header
+==================*/
+header {display: flex;  position: relative; box-shadow: 0px 5px 10px #dcdbdb; padding: 10px 0 10px; height: 10%; line-height:1;}
+#header-wrap nav {margin: auto;  float:right; padding:10px 0 10px;}
+#header-wrap nav a {display:inline-block; font-size:12px; color:#999; margin-left: 15px; text-align:center;}
+#header-wrap nav a:first-child {margin-left:0;}
+#header-wrap nav a img {padding-bottom: 5px;}
+#header-wrap nav a span {display:block; margin-top: 5px;}
+
+/* ******************************************from main_main.css (END) *********************************** */
+
+
+
+
+/* 
+.mw1600{
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+   color: #000;
+   outline: none;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: 'Nanum Gothic', sans-serif !important;
+   line-height: 1.5;
+   min-width: 1600px;
+   position: relative;
+}
+
+.full-slide{
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+box-sizing: border-box;
+background-color: transparent;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+font-family: 'Noto Sans KR', sans-serif;
+transition: all ease-in-out .1s;
+outline: 0;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+color: #999;
+margin-left: 15px;
+text-align: center;
+}
+.bg-white .mw{
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+   color: #000;
+   font-size: 100%;
+   font: inherit;
+   margin: 0;
+   outline: none;
+   box-sizing: border-box;
+   position: relative;
+   box-shadow: 0px 5px 10px #dcdbdb;
+   padding: 10px 0 10px;
+   height: 10%;
+   line-height: 1;
+   display: block;
+   font-family: 'Noto Sans KR', sans-serif;
+   min-width: 1200px;
+   background: #fff;
+}
+
+#header-wrap{
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+   color: #000;
+   outline: none;
+   box-sizing: border-box;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: 'Nanum Gothic', sans-serif !important;
+   line-height: 1.5;
+   max-width: 1200px;
+   margin: auto auto;
+}
+
+#header-wrap a, #header-wrap img {
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+outline: none;
+box-sizing: border-box;
+background-color: transparent;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+font-family: 'Noto Sans KR', sans-serif;
+font-size: inherit;
+transition: all ease-in-out .1s;
+color: inherit;
+text-decoration: none;
+}
+
+#header-wrap nav{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+color: #000;
+outline: none;
+box-sizing: border-box;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+display: block;
+margin: auto;
+float: right;
+padding: 10px 0 10px;
+}
+
+#header-wrap nav a{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+outline: none;
+box-sizing: border-box;
+background-color: transparent;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+font-family: 'Noto Sans KR', sans-serif;
+transition: all ease-in-out .1s;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+color: #999;
+text-align: center;
+margin-left: 0;
+}
+
+#header-wrap nav a img {-webkit-tap-highlight-color: rgba(0,0,0,0); color: #999; text-align: center; outline: none; box-sizing: border-box; margin: 0; padding: 0; font-size: 100%; font: inherit; border: 0; vertical-align: top; padding-bottom: 5px;}
+#header-wrap nav a span {-webkit-tap-highlight-color: rgba(0,0,0,0); color: #999; text-align: center; outline: none; box-sizing: border-box; margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Noto Sans KR', sans-serif; display: block; margin-top: 5px;}
+
+.full-menu .bg-white {
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+   color: #000;
+   outline: none;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: 'Nanum Gothic', sans-serif !important;
+   line-height: 1.5;
+   background: #fff;
+   box-shadow: 0px 10px 10px #dcdbdb;
+   position: absolute;
+   left: 0;
+   top: 90px;
+   z-index: 10;
+   width: 100%;
+   height: 326px;
+   text-align: center;
+   background-image: url(/source/img/full-bg.png);
+   background-position: 0 0;
+   background-repeat: repeat-x;
+   border-top: 1px solid #ddd;
+   display: block;
+}
+
+.inner{
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+   color: #000;
+   text-align: center;
+   outline: none;
+   box-sizing: border-box;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: 'Nanum Gothic', sans-serif !important;
+   line-height: 1.5;
+   max-width: 1200px;
+   margin: auto auto;
+}
+
+.full-list .inner .cf{
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+   color: #000;
+   text-align: center;
+   outline: none;
+   box-sizing: border-box;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: 'Noto Sans KR', sans-serif;
+   list-style: none;
+   max-width: 1200px;
+   margin: auto auto;
+}
+
+.full-list .inner .cf li{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+color: #000;
+list-style: none;
+outline: none;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+float: left;
+width: 12.5%;
+height: 326px;
+border-right: 1px solid #ddd;
+border-left: 1px solid #ddd;   
+}
+
+.full-list .inner .cf li div{   -webkit-tap-highlight-color: rgba(0,0,0,0); color: #000; list-style: none; outline: none; box-sizing: border-box; margin: 0; border: 0; font: inherit; vertical-align: baseline; font-family: 'Nanum Gothic', sans-serif !important; line-height: 1.5; font-size: 18px; padding: 16px 0;
+   }
+.full-list .inner .cf li ol{
+   -webkit-tap-highlight-color: rgba(0,0,0,0); color: #000; outline: none; box-sizing: border-box; margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Noto Sans KR', sans-serif; list-style: none; margin-bottom: 0;
+}
+.full-list .inner .cf li ol li{
+   -webkit-tap-highlight-color: rgba(0,0,0,0); color: #000; list-style: none; outline: none; box-sizing: border-box; margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin-top: 20px;
+}
+.full-list .inner .cf li ol li a{-webkit-tap-highlight-color: rgba(0,0,0,0); list-style: none; outline: none; box-sizing: border-box; background-color: transparent; margin: 0; padding: 0; border: 0; font: inherit; vertical-align: baseline; font-family: 'Noto Sans KR', sans-serif; transition: all ease-in-out .1s; text-decoration: none; font-size: 15px; color: #666; line-height: 25px;
+}
+ */
